@@ -1,0 +1,22 @@
+name: hands_on_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.12
+  - pyspark
+  - pandas
+  - numpy
+  - openjdk=11
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - ipykernel
+  - jupyterlab
+  - pip
+  - pip:
+    - python-dotenv
+    - fastparquet
+    - pyarrow
+    - findspark
+    - notebook
